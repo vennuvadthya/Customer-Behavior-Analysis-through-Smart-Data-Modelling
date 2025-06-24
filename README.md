@@ -1,5 +1,5 @@
-# Customer-Behavior-Analysis-through-Smart-Data-Modelling
-Customer Behavior Analysis through Smart Data Modeling
+# Stock Price Prediction & Risk-Return Analysis Using LSTM 
+Stock Price Prediction 
 This project dives deep into customer behavior patterns to uncover insights that can drive smarter business decisions. It involves analyzing structured datasets to predict churn, segment customers, and visualize key trends using a full analytics pipeline.
 
 🔍 Objectives
