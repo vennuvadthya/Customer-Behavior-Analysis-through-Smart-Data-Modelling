@@ -1,34 +1,12 @@
-# Stock Price Prediction & Risk-Return Analysis Using LSTM 
-Stock Price Prediction 
-This project dives deep into customer behavior patterns to uncover insights that can drive smarter business decisions. It involves analyzing structured datasets to predict churn, segment customers, and visualize key trends using a full analytics pipeline.
+# Stock-price-prediction-and-analysis
+This is about predicting and analyzing the stock prices of various companies
 
-🔍 Objectives
-Predict customer churn with high accuracy using logistic regression
+There will be No relation between analysis and prediction,
 
-Analyze customer segments across geography and time
+the analysis part is to compare one company to another, knowing where the return would be high, value to risk, how much the company returns compared to others, etc
 
-Translate raw data into actionable dashboards
+the prediction part is about predicting the stock's closing value in the upcoming days or months too.
 
-🛠️ Tools & Technologies
-Python, Pandas, Matplotlib, Seaborn
+We will predict only using the closing values of the company and will not use another feature.
 
-SQL for data querying
-
-MS Excel for visual summaries and pivots
-
-📈 Key Outcomes
-Achieved ~92% churn prediction accuracy
-
-Uncovered seasonal, location-specific trends in customer behavior
-
-Created risk scores and KPIs for better decision-making
-
-📁 Structure
-kotlin
-Copy
-Edit
-├── data/
-├── notebooks/
-├── churn_model.py
-├── insights_dashboard.xlsx
-├── README.md
+As we are using a single numpy array, we use data from the last 60 days to predict today. so (today-60 days to yesterday) data to predict today's value. we will send this data to LSTM model to predict.
